@@ -6,7 +6,7 @@ package comp1011.inheritance;
  */
 public class ComissionEmployee {
 	//Instance variables
-	private final String firstName;
+	protected final String firstName; // it means that all other children can use it. (Protected)
 	private final String lastName;
 	private final String socialSecurityNumber;
 	private double grossSales;
